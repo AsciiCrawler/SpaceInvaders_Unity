@@ -1,0 +1,73 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2200310160986895188
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7626775201843498350}
+  - component: {fileID: 7633525086004031525}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7626775201843498350
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2200310160986895188}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7633525086004031525
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2200310160986895188}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e29c40b0741965f40ba4ab963fdf0bc8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ALIEN_PREFAB: {fileID: 712756555015142128, guid: a562c5e41dd86474dbafcffd988fe7b1, type: 3}
+  PLAYER_PREFAB: {fileID: 2495063831535200906, guid: f9e8dbd4702a27341979f1b6b0d2984f, type: 3}
+  inputActionStartGame:
+    m_Name: Input Action Start Game
+    m_Type: 0
+    m_ExpectedControlType: 
+    m_Id: 3f8d7094-833c-433e-b97c-63d7ffd4b81f
+    m_Processors: 
+    m_Interactions: 
+    m_SingletonActionBindings:
+    - m_Name: 
+      m_Id: 301aa4aa-ac38-42f0-8751-1c97a03afa0b
+      m_Path: <Keyboard>/r
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Input Action Start Game
+      m_Flags: 0
+    - m_Name: 
+      m_Id: 11549240-5900-4f05-97e4-dc84e4cb4330
+      m_Path: <Gamepad>/start
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Input Action Start Game
+      m_Flags: 0
+    m_Flags: 0
